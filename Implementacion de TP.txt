@@ -1,0 +1,12 @@
+Idea general: 
+
+Encontrar todas las apariciones de una palabra clave en un documento
+
+Metodologia
+
+1- chatGPT: arma un .txt que va a ser en el que se realice la busqueda
+2- implementar una lectura de archivos en python
+3- guardar las palabras en un array
+4- ordenar el array de palabras con el ordenamiento quicksort
+5- implementar una busqueda binaria para determinar la existencia y posicion de una palabra
+
