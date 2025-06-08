@@ -5,7 +5,10 @@ def main():
     palabras = obtener_palabras_limpias()
     palabras_ordenadas = quicksort(palabras)
     print(palabras_ordenadas)
-    objetivo = "python"
+    objetivo = input("Ingrese la palabra que desea buscar: ")
+    if not objetivo:
+        print("No se ingresó ninguna palabra.")
+        return
     indice = busqueda_binaria_iterativa(palabras_ordenadas, objetivo)
     if indice != -1:
         print(f"La palabra '{objetivo}' se encuentra en el índice {indice}.")
