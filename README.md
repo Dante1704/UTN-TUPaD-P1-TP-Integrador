@@ -42,12 +42,12 @@ Llevar adelante una investigación práctica y aplicada sobre conceptos fundamen
 ├─ main.py                               # Script principal que ejecuta el programa
 ├─ README.md                             # Instrucciones y documentación del proyecto
 └─ utils/                                # Módulo con funciones auxiliares
-   ├ busqueda_binaria_iterativa.py       # Función de iteración que recorre una lista 
-   ├                                       dividiendola en dos partes en cada recorrido hasta 
-   ├                                       llegar al objetivo de busqueda
-   ├ obtener_palabras_limpias.p          # Funciones para convertir un string en una lista
-   ├                                      utilizando  una expresión regular para eliminar puntos
-   ├                                      y comas 
+   | busqueda_binaria_iterativa.py       # Función de iteración que recorre una lista 
+   |                                       dividiendola en dos partes en cada recorrido hasta 
+   |                                       llegar al objetivo de busqueda
+   | obtener_palabras_limpias.p          # Funciones para convertir un string en una lista
+   |                                      utilizando  una expresión regular para eliminar puntos
+   |                                      y comas 
    └── quicksort.py                     # Funciones de ordenamiento que recibe una lista
                                             desordenada y devuelve una lista ordenada mediante un 
                                             pivote
