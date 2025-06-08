@@ -6,11 +6,10 @@ from utils.busqueda_binaria_iterativa import busqueda_binaria_iterativa
 def main(): 
     palabras = obtener_palabras_limpias()
     palabras_ordenadas = quicksort(palabras)
-    print(palabras_ordenadas)
     palabra_a_buscar = input("Ingrese la palabra que desea buscar: ")
     objetivo = palabra_a_buscar.lower()
     if not objetivo:
-        print("No se ingresó ninguna palabra.")
+        print("No se ingresó ninguna palabra. No se realizará la búsqueda.")
         return
     indice = busqueda_binaria_iterativa(palabras_ordenadas, objetivo)
     indice_2 = busqueda_nativa_python(palabras_ordenadas, objetivo)
