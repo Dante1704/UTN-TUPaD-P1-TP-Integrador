@@ -16,5 +16,5 @@ def busqueda_binaria_iterativa(lista, objetivo):
             derecha = medio - 1
     fin = time.time()
     duracion = fin - inicio
-    print(f"Duración de la búsqueda: {duracion:.6f} segundos")
+    print(f"Duración de la búsqueda binaria con ordenamiento quicksort: {duracion:.6f} segundos")
     return resultado
