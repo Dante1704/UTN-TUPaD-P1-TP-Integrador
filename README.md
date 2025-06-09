@@ -55,3 +55,5 @@ Llevar adelante una investigación práctica y aplicada sobre conceptos fundamen
 
 ---
 
+### Presentación en video
+Link: [Presentación](https://www.youtube.com/watch?v=EX7toJ18-Cg)
