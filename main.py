@@ -13,7 +13,7 @@ def main():
         return
     indice = busqueda_binaria_iterativa(palabras_ordenadas, objetivo)
     indice_2 = busqueda_nativa_python(palabras_ordenadas, objetivo)
-    if indice != -1:
+    if indice != -1 or indice_2 != -1:
         print(f"La palabra '{palabra_a_buscar}' está presente en el archivo")
     else:
         print(f"La palabra '{palabra_a_buscar}' no se encontró en el archivo.")
