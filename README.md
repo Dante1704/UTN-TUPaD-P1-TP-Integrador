@@ -71,7 +71,7 @@ Llevar adelante una investigación práctica y aplicada sobre conceptos fundamen
 - Tutor: **Martin Alejandro Garcia**
 
 ### Presentación en video
-Link: [Presentación](https://www.youtube.com/watch?v=EX7toJ18-Cg)
+Link: [Presentación](https://www.youtube.com/watch?v=SydI9f-8Ypg)
 
 ### Como Clonar y ejecutar el algoritmo
 <pre>
