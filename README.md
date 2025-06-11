@@ -66,7 +66,7 @@ Llevar adelante una investigación práctica y aplicada sobre conceptos fundamen
 </pre>
 
 ---
-### Presentación en video
+### Equipo docente
 - Docente:  **Cinthia Rigoni**
 - Tutor: **Martin Alejandro Garcia**
 
