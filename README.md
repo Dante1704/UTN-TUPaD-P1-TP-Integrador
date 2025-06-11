@@ -22,11 +22,13 @@ Algunas personas, ingenieros y programadores, han argumentado que cuando las par
 
 Quicksort suele ser eficiente y rápido en la mayoría de los casos, aunque hay situaciones donde no rinde tanto. Igual, en general se comporta muy bien y es bastante usado en la práctica, porque además no necesita mucha memoria extra.
 
-Anteriormente mencionamos el peor escenario posible en cuanto al tiempo de ejecución de un algoritmo, especialmente en el caso del ordenamiento quicksort. Este tiempo depende directamente del tamaño de los datos de entrada: a mayor cantidad de elementos, mayor puede ser el tiempo requerido.
+El peor escenario posible en el algoritmo de ordenamiento quicksort se da cuando el tiempo de ejecución crece significativamente debido a una mala elección del pivote. Este tiempo está directamente relacionado con la cantidad de elementos de entrada.
 
-Uno de los problemas comunes en quicksort ocurre cuando se elige un pivote inadecuado, lo que puede llevar al peor caso de rendimiento (tiempo O(n²)). Un enfoque simple consiste en usar siempre el mismo elemento como pivote (por ejemplo, el primero, el del medio o el último). Sin embargo, esto conlleva el riesgo de elegir un valor poco representativo, como el menor o el mayor del conjunto.
+Existen distintos métodos para seleccionar el pivote y tratar de evitar ese caso desfavorable. Una opción es usar siempre el mismo elemento del conjunto (como el primero, el del medio o el último), pero esto implica el riesgo de que ese elemento sea el valor más bajo o más alto, lo que lleva a una mala partición.
 
-Una alternativa más precisa es elegir la mediana de todos los elementos, pero esto añade mayor complejidad al algoritmo. Como solución intermedia, se suele tomar tres elementos (el primero, el del medio y el último) y utilizar como pivote el valor intermedio entre ellos (la mediana de esos tres). Esta técnica ayuda a mejorar el rendimiento sin agregar tanta complejidad.
+Otra alternativa es calcular la mediana de todos los elementos, lo cual mejora la eficiencia pero también agrega complejidad al algoritmo.
+
+Una solución intermedia consiste en seleccionar tres elementos del conjunto (por ejemplo, el primero, el del medio y el último) y usar como pivote el valor intermedio entre ellos. Esta técnica mejora la elección del pivote sin complicar demasiado el proceso.
 
 En este trabajo vamos a implementar una búsqueda simple, utilizando busqueda binaria y quicksort en Python, para ver en la práctica cómo funcionan estos conceptos.
 
