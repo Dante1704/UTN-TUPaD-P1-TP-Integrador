@@ -66,3 +66,16 @@ Tutor: Martin Alejandro Garcia
 
 ### Presentación en video
 Link: [Presentación](https://www.youtube.com/watch?v=EX7toJ18-Cg)
+
+### Como Clonar y ejecutar el algoritmo
+Para clonar copiamos el siguiente link:
+https://github.com/Dante1704/UTN-TUPaD-P1-TP-Integrador.git
+Y abrimos una consola shell o git bash e introducimos el siguiente comando:
+
+git clone https://github.com/Dante1704/UTN-TUPaD-P1-TP-Integrador.git
+
+De esta forma podemos tener el repo en local, una vez realizamos este clone nos dirigimos a la función main.py y presionamos la "bandera" en el marco derecho superior del editor de código Visual Studio Code:
+![Bandera](image.png)
+
+Otra forma de ejecutar el algoritmo es ejecutando en una consola shell o git bash dentro de la raiz del proyecto clonado:
+python main.py
