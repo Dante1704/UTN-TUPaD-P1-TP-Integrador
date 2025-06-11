@@ -76,8 +76,9 @@ Y abrimos una consola shell o git bash e introducimos el siguiente comando:
 git clone https://github.com/Dante1704/UTN-TUPaD-P1-TP-Integrador.git
 
 De esta forma podemos tener el repo en local, una vez realizamos este clone nos dirigimos a la función main.py y presionamos la "bandera" en el marco derecho superior del editor de código Visual Studio Code:
+</pre>
 ![Bandera](assets/image.png)
-
+<pre>
 Otra forma de ejecutar el algoritmo es ejecutando en una consola shell o git bash dentro de la raiz del proyecto clonado:
 python main.py
 </pre>
