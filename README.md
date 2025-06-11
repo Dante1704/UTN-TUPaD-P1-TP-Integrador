@@ -14,9 +14,15 @@ Un algoritmo es un conjunto de pasos que sirven para resolver un problema. En el
 
 Después hay otra forma que es más rápida, pero tiene una condición: que los datos ya estén ordenados. Se llama búsqueda binaria, y lo que hace es dividir la lista a la mitad cada vez, descartando la parte que no sirve. Así encuentra el valor mucho más rápido, con complejidad es O (log n), aunque no se puede aplicar, en cualquier caso. Es necesario aclarar que O (log n) es el tiempo logarítmico que crece muy lentamente, aunque aumente la cantidad de datos. Es logarítmico porque el número de pasos crece como el logaritmo de n en base 2, como en el caso de la búsqueda binaria.
 
-Justamente por eso ordenar se vuelve tan importante. Hay muchos algoritmos que hacen esto, y uno de los más usados es el quicksort. Fue inventado por Tony Hoare y trabaja eligiendo un valor pivote. Luego separa los datos menores a un lado y los mayores al otro. Después repite el mismo proceso con esos dos grupos. Es como dividir el problema en partes más chicas.
+Justamente por eso ordenar se vuelve tan importante. Hay muchos algoritmos que hacen esto, y uno de los más usados es el quicksort. Fue inventado por Tony Hoare, tomando tomando un problema de ordenamiento y lo descompone en subproblemas, que a su cez se descomponen en más subproblemas, trabajando eligiendo un valor pivote. Esto se logra mediante programación recursiva, donde la programación recursiva es una técnica que consiste en que una función se llame a si misma para resolver un problema hasta lograr el caso base. Luego separa los datos menores a un lado y los mayores al otro. Después repite el mismo proceso con esos dos grupos. Es como dividir el problema en partes más chicas.
+
+Cabe destacar que quicksort como fue introducido por Tony inicialmente no fue perfecto, pero a medida que pasaron los años muchas personas colaboraron para ajustar y resolver las debilidades.
+
+Algunas personas, ingenieros y programadores, han argumentado que cuando las particiones son lo suficientemente pequeñas, este tipo de ordenamiento resulta ser menos eficiente que usar otros metodos de ordenamiento. 
 
 Quicksort suele ser eficiente y rápido en la mayoría de los casos, aunque hay situaciones donde no rinde tanto. Igual, en general se comporta muy bien y es bastante usado en la práctica, porque además no necesita mucha memoria extra.
+
+Anteriormente nombramos los tipo de tiempo que hay, como tiempo lineal "O (n)" y tiempo logaritmico "O (log n)", siempre refiriendonos al tiempo de ejecución del algoritmo, el peor escenario que podemos tener es que el tiempo en relación al tamaño de la información, al tamaño de elementos de entrada que puede tener un algoritmo. Existe varios metodos para resolver o intentar resolver este problema, un metodo es usar siempre el mismo elemento en un conjunto, pero existe el riesgo de que el elemento elegido sea el primero o el último valor de un conjunto, otra posible solución seria la de elegir la media de un conjunto, pero esto agregaria mayor complejidad, ahora bien, una solución intermedia consistiria en elegir tres elementos del consjunto, por ejemplo, el primero, el del medio y el ultimo y usar el elemento del medio como pivote.
 
 En este trabajo vamos a implementar una búsqueda simple y el quicksort usando Python, para ver en la práctica cómo funcionan estos conceptos.
 
@@ -54,6 +60,9 @@ Llevar adelante una investigación práctica y aplicada sobre conceptos fundamen
 </pre>
 
 ---
+### Presentación en video
+Docente: Cinthia Rigoni
+Tutor: Martin Alejandro Garcia
 
 ### Presentación en video
 Link: [Presentación](https://www.youtube.com/watch?v=EX7toJ18-Cg)
